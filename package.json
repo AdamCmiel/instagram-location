@@ -1,0 +1,29 @@
+{
+  "name": "instagram-location",
+  "version": "1.0.0",
+  "description": "returns the location data of the last post on instagram",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/adamcmiel/instagram-location"
+  },
+  "keywords": [
+    "instagram",
+    "location",
+    "geotag"
+  ],
+  "author": "Adam Cmiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamcmiel/instagram-location/issues"
+  },
+  "homepage": "https://github.com/adamcmiel/instagram-location",
+  "devDependencies": {
+    "babel": "^5.5.4"
+  }
+}
