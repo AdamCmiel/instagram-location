@@ -1,6 +1,6 @@
 {
   "name": "instagram-location",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "returns the location data of the last post on instagram",
   "main": "lib/index.js",
   "scripts": {
